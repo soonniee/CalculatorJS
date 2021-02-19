@@ -40,7 +40,7 @@ function makeOperation(operator){
     if(operator === '+'){
          opResult = clicked_arr[0] + clicked_arr[2];
     }else if(operator ==='-'){
-         opResult = clicked_arr[0] + clicked_arr[2];
+         opResult = clicked_arr[0] - clicked_arr[2];
     }else if(operator ==='*'){
          opResult = clicked_arr[0] * clicked_arr[2];
     }else if(operator ==='/'){
