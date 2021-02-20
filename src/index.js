@@ -89,7 +89,7 @@ function equalClicked(){
         console.log(clicked_arr)
     }
 }
-console.log(number);
+
 for(var i = 0 ; i < number.length ; i++){
     number[i].addEventListener("click",numberClicked);
 }
